@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main()
+{
+    float a=3.11;
+    printf("%.8f is float up to 8 decimal place",a);
+    return 0;
+}
