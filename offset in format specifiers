@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main()
+{
+    int a=3;
+    printf("%18d is printed after 17 blank spaces",a);
+    return 0;
+}
