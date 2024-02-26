@@ -1,0 +1,9 @@
+/*this program is not correct, ive created this in order to learn about const and preprocessor constants on c*/
+#include <stdio.h>
+int main()
+{
+    const int a=3;
+    a=4; /*this wont run becuse we have set 'a' as a const*/
+    printf("%d",a);
+    return 0;
+}
