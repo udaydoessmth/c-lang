@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main()
+{
+    int a=3,b=5;
+    printf("backslash n represents a new line, for example\n %d\n %d\n",a,b);
+    return 0;
+}
