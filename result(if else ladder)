@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{ 
+    int result;
+    printf("what was your result??\n");
+    scanf("%d",&result);
+    if(result>85){
+        printf("waw v dangaras :O");
+    }
+    else if(result>75){
+        printf("oka");
+    }
+    else{
+        printf("dum dum");
+    }
+    return 0;
+}
