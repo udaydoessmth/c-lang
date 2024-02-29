@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("what is your age??\n");
+    scanf("%d",&a);
+    switch(a){
+    case 18:
+    printf("your age is 18");
+    break;
+    default: printf("you are not 18");
+    }
+    return 0;
+}
