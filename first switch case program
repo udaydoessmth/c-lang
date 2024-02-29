@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter a number\n");
+    scanf("%d",&a);
+    switch(a){
+        case 1: printf("value is 1 !!");
+        break;
+        case 2: printf("value is 2 !!");
+        break;
+        default: printf("your input is not valid :(");
+    }
+    return 0;
+}
