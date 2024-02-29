@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("what is the code??\n");
+    scanf("%d",&a);
+    switch(a){
+    case 420:
+    printf("HAHA hello member !!");
+    break;
+    default: printf("go away you don belong here >:(");
+    }
+    return 0;
+}
