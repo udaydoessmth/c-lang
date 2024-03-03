@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(){
+    int x,i;
+      printf("enter a number:\t");
+      scanf("%d",&x);
+      for(i=1;i<100;i++){
+          printf("%d) do it again: ",i);
+          scanf("%d",&x);
+          if(x==8){
+              printf("this time i wont print random stuff\n");
+              continue;
+          }
+          printf("haha\n");
+          printf("xyz\n");
+          printf("im writing this to understand how break and continue works\n");
+          printf("okay im done now\n");
+      }
+      return 0;
+}
