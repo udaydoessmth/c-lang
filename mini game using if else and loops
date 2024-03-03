@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main()
+{   int x,num,i=1;
+    printf("type '1' to play a mini game:\t");
+    scanf("%d",&x);
+    if(x==1){
+        printf("\nokay lets play the game :D\n");
+    }
+    else{
+        printf("you don wanna play the game??? :(\t");
+    }
+     printf("enter the number you think is greater than the number ive in my mind:\t");
+     scanf("%d",&num);
+    if(num>32){
+        printf("waw you have guessed it right !!");
+    }
+    else{
+        while(i<32){
+            printf("attempt number %d, guess it again HAHA:\t",i);
+            i++;
+            scanf("%d",&num);
+            if(num>32){
+                printf("yayy you did itt :D");
+                break;
+            }
+        }
+    }
+    return 0;
+}
