@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    label: printf("HAHA");
+    goto label; 
+      return 0;
+}
