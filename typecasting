@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter a int type number: ");
+    scanf("%d",&a);
+    printf("the conversion of your int input %d to float type is: %f",a,(float)a);
+    return 0;
+}
