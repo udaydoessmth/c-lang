@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("i did not code today :(");
+
+    return 0;
+}
