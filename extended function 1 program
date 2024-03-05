@@ -18,7 +18,7 @@ int main()
        printf("sum is %d",c);
        
     }
-    else {printf("quitted");}
+    else {printf("HAHA no");}
     
     return 0;
 }
