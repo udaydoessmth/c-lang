@@ -1,0 +1,30 @@
+#include <stdio.h>
+int sum(int a,int b);
+
+int main()
+{
+    int a,b,c,x,u,i;
+    printf("enter a and b: ");
+    scanf("%d%d",&a,&b);
+    c=sum(a,b);
+    printf("sum is %d\n",c);
+    printf("enter value of x:");
+    scanf("%d",&x);
+   
+    if(x==10){
+       printf("enter new variables:");
+       scanf("%d %d",&u,&i);
+       c=sum(u,i);
+       printf("sum is %d",c);
+       
+    }
+    else {printf("quitted");}
+    
+    return 0;
+}
+int sum(int a,int b)
+{
+    int c;
+    c=a+b;
+    return c;
+}
