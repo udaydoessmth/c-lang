@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int i,n,odd,sum;
+    printf("enter a number: ");
+    scanf("%d",&n);
+    printf("the cube of numbers up to %d: \n",n);
+    for(i=1;i<=n;i++){
+        odd = 2*i-1;
+        sum += odd;
+        printf("%d\n",odd);
+    }
+    printf("%d",sum);
+    return 0;
+}
