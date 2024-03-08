@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int i,n,cube;
+    printf("enter a number: ");
+    scanf("%d",&n);
+    printf("the cube of numbers up to %d: \n",n);
+    for(i=1;i<=n;i++){
+        cube = i*i*i;
+        printf("%d\n",cube);
+    }
+    
+    return 0;
+}
