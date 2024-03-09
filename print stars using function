@@ -1,0 +1,12 @@
+#include <stdio.h>
+void printstar(int n){
+    for(int i = 0; i< n;i++){
+        printf("%c", '*');
+    }
+}
+int main() {
+    // Write C code here
+    printstar(8);
+    
+    return 0;
+}
