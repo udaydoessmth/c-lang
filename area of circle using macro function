@@ -1,0 +1,11 @@
+#include <stdio.h>
+#define i 3.14
+#define area(r) i*r*r
+int main() {
+    int r;
+    printf("enter the value of r: ");
+    scanf("%d",&r);
+    float Area = area(r);
+    printf("%f",Area);
+    return 0;
+}
